@@ -8,6 +8,47 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+
+	<form action="/example.html" method="get">
+
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" name="name" required><br/><br/>
+		
+		<label for="email">Email:</label><br>
+		<input type="email" name="email" id="email" required placeholder="abc@gmail.com"><br><br>
+
+		<label for="gender" >Gender:</label><br>
+		<input type="radio" name="gender" id="gender" checked required>Male<br>
+		<input type="radio" name="gender" id="gender" required>Female<br>
+		<input type="radio" name="gender" id="gender" required>Others<br><br>
+
+		<label for="laptop">Laptop Brand:</label><br>
+		<select name="select" id="laptop" required>
+			<option value="laptop1">Apple</option>
+			<option value="laptop2" selected>Asus</option>
+			<option value="laptop3">HP</option>
+		</select><br><br>
+
+		<label for="age">Age:</label><br>
+		<input type="text" id="age" required><br><br>
+
+		<label for="dob">DOB:</label><br>
+		<input type="date" name="dob" id="dob" required><br><br>
+
+		<label for="password">Password:</label><br>
+		<input type="password"  id="password" required><br><br>
+
+        <label for="url">Url:</label><br>
+       <input type="url" name="url" id="url" required> <br> <br>
+
+		<input type="button" value="Submit">
+
+
+
+	</form>
+
+
+
     <script type="text/javascript" src="./script.js">
 </script>
 
